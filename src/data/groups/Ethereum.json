@@ -1,0 +1,13 @@
+{
+    "name": "Ethereum",
+    "url": "https://etherscan.io/address/0x165CD37b4C644C2921454429E7F9358d18A45e14",
+    "additionalInfo": "This is cryptocurrency. Will monitor this closely. SRC: https://twitter.com/Ukraine/status/1497594592438497282",
+    "region": [
+        "Global"
+    ],
+    "currencies": [
+        "ETH",
+        "USDT"
+    ],
+    "show": true
+}

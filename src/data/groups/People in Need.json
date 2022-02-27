@@ -1,0 +1,15 @@
+{
+    "name": "People in Need",
+    "url": "https://www.peopleinneed.net/donate/once?amount=40&accountId=7",
+    "additionalInfo": "Food, water, hygiene kits and emergency shelters are some of the many things that PIN provides.",
+    "region": [
+        "Europe",
+        "USA",
+        "Global"
+    ],
+    "currencies": [
+        "EUR",
+        "CZK"
+    ],
+    "show": true
+}

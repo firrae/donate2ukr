@@ -1,0 +1,12 @@
+{
+    "name": "Canadian Red Cross",
+    "url": "https://donate.redcross.ca/page/100227/donate/1",
+    "additionalInfo": "Canadian Government matching up to $10 million in donations.",
+    "region": [
+        "Canada"
+    ],
+    "currencies": [
+        "CAD"
+    ],
+    "show": true
+}

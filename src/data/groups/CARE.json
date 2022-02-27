@@ -1,0 +1,12 @@
+{
+    "name": "CARE",
+    "url": "https://www.care.org/",
+    "additionalInfo": "A humanitarian organization behind the Ukraine Crisis Fund. The company is providing immediate assistance, including food, water and other essentials.",
+    "region": [
+        "USA"
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "show": true
+}
