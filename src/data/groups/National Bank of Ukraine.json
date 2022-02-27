@@ -1,0 +1,21 @@
+{
+    "name": "National Bank of Ukraine",
+    "url": "https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
+    "additionalInfo": "Source: https://twitter.com/Ukraine/status/1497294840110977024.",
+    "region": [
+        "Global"
+    ],
+    "currencies": [
+        "UAH",
+        "USD",
+        "EUR",
+        "GBP",
+        "CHF",
+        "AUD",
+        "CAD",
+        "CNY",
+        "JPY",
+        "PLN"
+    ],
+    "show": true
+}
