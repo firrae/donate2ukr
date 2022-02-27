@@ -1,8 +1,8 @@
 {
-  "name": "fuckputin",
+  "name": "donate2ukraine",
   "version": "1.0.0",
   "private": true,
-  "description": "fuckputin",
+  "description": "Fuck Putin",
   "author": "Steven Lambe",
   "keywords": [
     "gatsby"
@@ -28,6 +28,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.1",
+    "react-github-corner": "^2.5.0",
     "react-helmet": "^6.1.0"
   }
 }

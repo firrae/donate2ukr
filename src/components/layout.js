@@ -2,6 +2,7 @@ import React from "react"
 
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { Helmet } from "react-helmet";
+import GithubCorner from 'react-github-corner';
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -22,9 +23,7 @@ export default function Layout({ children, location }) {
 
             file(relativePath: {eq: "Flag_of_Ukraine.png"}) {
                 childImageSharp {
-                    fixed(width: 1600) {
-                      src
-                    }
+                    gatsbyImageData(width: 1600, layout: FIXED)
                   }
             }
         }
@@ -38,8 +37,6 @@ export default function Layout({ children, location }) {
         )
     });
 
-    console.log(data)
-
     return (
         <Container fluid>
             <Helmet>
@@ -52,7 +49,7 @@ export default function Layout({ children, location }) {
                 <meta property="og:title" content={`Donate 2 Ukraine${location.pathname.replace('/', '') !== '' ? ' from ' + location.pathname.replace('/', '') : ' from Anywhere'}`} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://donate2ukr.com" />
-                <meta property="og:image" content={'https://donate2ukr.com' + data.file.childImageSharp.fixed.src} />
+                <meta property="og:image" content={'https://donate2ukr.com' + data.file.childImageSharp.gatsbyImageData.images.fallback.src} />
                 <meta property="og:image:alt" content="Ukranian Flag" />
                 <meta property="og:image:type" content="image/png" />
                 <meta property="og:description" content="An open source list of organization and methods to donate to in support of Ukraine and her people." />
@@ -73,6 +70,7 @@ export default function Layout({ children, location }) {
                 </Nav>
             </Row>
             {children}
+            <GithubCorner href="https://github.com/firrae/donate2ukr" />
         </Container>
     )
 }
