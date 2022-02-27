@@ -30,5 +30,6 @@ module.exports = {
         path: `src/images`,
       },
     },
+    `gatsby-plugin-netlify`,
   ]
 };
