@@ -6,7 +6,8 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 const style = {
-    width: '40rem',
+    width: 'auto',
+    maxWidth: '45rem',
     marginBottom: '10px'
 }
 
